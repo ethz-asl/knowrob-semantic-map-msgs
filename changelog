@@ -1,0 +1,11 @@
+knowrob-semantic-map-msgs (1.0.0-2) unstable; urgency=low
+
+  * Build system and package dependency patches
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Fri, 20 Mar 2015 14:02:00 +0100
+
+knowrob-semantic-map-msgs (1.0.0-1) unstable; urgency=low
+
+  * Initial commit with package sources from knowrob_addons/semantic_map_to_owl
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Fri, 20 Mar 2015 14:00:00 +0100

@@ -1,10 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(semantic_map_to_owl)
+project(knowrob_semantic_map_msgs)
 
-find_package(catkin REQUIRED rosjava_build_tools geometry_msgs knowrob_common message_generation)
-
-
-catkin_rosjava_setup(installApp publishMavenJavaPublicationToMavenRepository)
+find_package(catkin REQUIRED roscpp rospy geometry_msgs message_generation rosjava_messages)
 
 add_message_files(
   FILES SemMap.msg SemMapObject.msg
@@ -13,21 +10,15 @@ add_service_files(
   FILES GenerateSemanticMapOWL.srv
 )
 
-
 generate_messages(
    DEPENDENCIES geometry_msgs
 )
 
 catkin_package(
-    DEPENDS geometry_msgs knowrob_common
+    DEPENDS message_runtime
 )
 
-
-##############################################################################
-# Installation
-##############################################################################
-
-# Change this to match the maven group name you have specified in the
-# allprojects closure the root build.gradle
-install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/knowrob/${PROJECT_NAME}/
-        DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/org/knowrob/${PROJECT_NAME})
+install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_JAR_DESTINATION}/
+        DESTINATION ${CATKIN_GLOBAL_JAR_DESTINATION}/)
+install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/
+        DESTINATION ${CATKIN_GLOBAL_MAVEN_DESTINATION}/)
