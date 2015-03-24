@@ -1,6 +1,6 @@
 <package>
   <name>knowrob_semantic_map_msgs</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>
     Message definitions for generating the OWL description of semantic
     maps from ROS.

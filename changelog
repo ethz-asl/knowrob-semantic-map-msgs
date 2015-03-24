@@ -1,4 +1,10 @@
-knowrob-semantic-map-msgs (1.0.0-2) unstable; urgency=low
+knowrob-semantic-map-msgs (1.0.1-3) unstable; urgency=low
+
+  * Added message types for additional map content
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 24 Mar 2015 14:22:00 +0100
+
+knowrob-semantic-map-msgs (1.0.1-2) unstable; urgency=low
 
   * Build system and package dependency patches
 
