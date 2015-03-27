@@ -19,6 +19,7 @@ add_message_files(
     SemMapObject.msg
     SemMapObjectProperty.msg
     SemMapObjectSize.msg
+    SemMapPrefix.msg
 )
 add_service_files(
   FILES

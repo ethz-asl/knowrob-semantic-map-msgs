@@ -4,6 +4,7 @@
 Header header                               # message header
 
 string namespace                            # OWL namespace of the map
+SemMapPrefix[] prefixes                     # OWL prefixes of the map
 string[] imports                            # OWL imports of the map
 
 SemMapAddress address                       # address of the map
