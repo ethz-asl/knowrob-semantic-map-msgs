@@ -14,6 +14,7 @@ find_package(
 add_message_files(
   FILES
     SemMap.msg
+    SemMapAction.msg
     SemMapAddress.msg
     SemMapDataProperty.msg
     SemMapObject.msg
