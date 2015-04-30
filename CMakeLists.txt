@@ -25,6 +25,7 @@ add_message_files(
 add_service_files(
   FILES
     GenerateSemanticMapOWL.srv
+    GetSemanticMap.srv
 )
 
 generate_messages(
