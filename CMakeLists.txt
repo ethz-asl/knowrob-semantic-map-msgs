@@ -15,6 +15,7 @@ add_message_files(
   FILES
     SemMap.msg
     SemMapAction.msg
+    SemMapActionFeedback.msg
     SemMapAddress.msg
     SemMapDataProperty.msg
     SemMapObject.msg

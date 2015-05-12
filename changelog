@@ -1,3 +1,10 @@
+knowrob-semantic-map-msgs (1.0.1-7) unstable; urgency=low
+
+  * Revised SemMapAction message
+  * Added SemMapActionFeedback message
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 12 May 2015 11:07:00 +0100
+
 knowrob-semantic-map-msgs (1.0.1-6) unstable; urgency=low
 
   * Added GetSemanticMap service
