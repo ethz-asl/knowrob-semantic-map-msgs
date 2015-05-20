@@ -13,6 +13,7 @@ SemMapAddress address                     # address of the map
 
 SemMapObject[] objects                    # list of objects in the map
 SemMapAction[] actions                    # list of actions defined on the map
+SemMapTask[] tasks                        # list of tasks defined on the map
 
 SemMapObjectProperty[] object_properties  # list of object properties
 SemMapDataProperty[] data_properties      # list of data properties
